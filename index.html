@@ -43,7 +43,13 @@ Product name:-----" class="contact-inputs" id="txtbox" required></textarea>
     </div>
   </div>
 
-
+  <div class="pc-none">
+    <button class="dplay-none" type="button"
+      onclick="location.href='https://www.facebook.com/profile.php?id=100089129497483'">Your phone Screen is really
+      small~<br>
+      <p>OR Click me and go to our facebook Page</p>
+    </button>
+  </div>
 
   <!-- Modal for product selection -->
   <div id="product-modal" class="modal">
@@ -57,29 +63,43 @@ Product name:-----" class="contact-inputs" id="txtbox" required></textarea>
     </div>
   </div>
 
-
-
-
-
-
-
-
-
   <script>
     const products = [
+      // Beyblade X
+      { name: 'Phoenix Wing', price: 600 },
+      // { name: 'Shark-Edge', price: 600 },
+      { name: 'UX Dran Buster', price: 550 },
+      // { name: 'Dran Dagger', price: 540 },
+      { name: 'Hells Hammer', price: 550 },
+      { name: 'Unicorn Sting', price: 550 },
+      // { name: 'Leon Claw', price: 500 },
+      { name: 'Hells Chain', price: 520 },
+      { name: 'Wizard Arrow(Yellow)', price: 500 },
+      { name: 'Wizard Rod', price: 5050 },
+      { name: 'BX-09 Beybattle Pass Accessory', price: 250 },
+      // { name: 'X String-Launcher', price: 450 },
+      { name: 'X Ripcord-Launcher', price: 400 },
 
-      { name: 'Dranzer S', price: 440 },
-      { name: 'Cobalt Drake', price: 520 },
-      { name: ' Beybattle Pass', price: 370 },
-      { name: 'String Launcher', price: 470 },
-      { name: 'Shark Edge', price: 480 },
-      { name: 'Phoenix Wing(pre-order)', price: 600 }
+      // Beyblade Metal
+      { name: 'Galaxy-Pegasus', price: 600 },
+      { name: 'Basalt-Horogium/T.Tempo', price: 520 },
+      { name: 'Divine-Fox', price: 460 },
+      { name: 'Fusion Hades', price: 550 },
+      // { name: 'Cyber Pegasus', price: 500 },
+      { name: 'Metal TT String Launcher', price: 480 },
+      // { name: 'Flash Sagittario', price: 460 },
+
+
+
+      // Beyblade burst
+      { name: 'Burst Spriggan', price: 500 },
+      { name: 'Ultimate Valkyrie', price: 500 },
+      // { name: 'Guilty Longinus', price: 600 },
+      { name: 'Vanish Fafnir', price: 500 },
+      // { name: 'Master Diabolos', price: 600 },
+      // { name: 'Infinite Achilles', price: 500 },
+      { name: 'DB Launcher LR', price: 400 }
     ];
-
-
-
-
-
 
     function openModal() {
       const modal = document.getElementById('product-modal');
